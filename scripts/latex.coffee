@@ -13,4 +13,5 @@ module.exports = (robot) ->
         title: "Result"
         title_link: url
         image_url: url
+        color: "#764FA5"
     robot.emit "slack.attachment", data
